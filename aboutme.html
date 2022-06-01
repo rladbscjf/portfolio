@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/aboutme.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./javascript/parallax.min.js"></script>
+    <title>About – Yunchul Kim</title>
+</head>
+<body>
+<!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="brand">
+            <img src="./images/logo1white.png" alt="" class="logo">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="aboutme.html">About</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <a href="https://www.facebook.com/profile.php?id=100069633026110" target="_blank"><li><i class="fa fa-facebook"></i></li></a>
+                <a href="https://www.instagram.com/xxynchlkm/" target="_blank"><li><i class="fa fa-instagram"></i></li></a>
+                <a href="https://twitter.com/333yck333" target="_blank"><li><i class="fa fa-twitter"></i></li></a>
+                <a href="https://github.com/rladbscjf" target="_blank"><li><i class="fa fa-github"></i></li></a>
+                <a href="https://www.linkedin.com/in/yunchulkim/" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+            </ul>
+        </div> 
+    </nav>
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+<!--Navigation Bar-->
+<div class="about-container">
+    <div class="image">
+        <img src="./images/me.jpg">
+    </div>
+    <div class="desc">
+        <h1 class="desc-1">
+            My philosophy towards work is to challenge myself continuously, to be creative 
+            in everything I do for client or a company. Learning new things, taking new 
+            opportunities and working with amazing and creative people are one of the ways 
+            I find motivation. I always strive to perform well in something especially if 
+            it is an important task because I always see it as a reflection of who I am as 
+            a person. All in all, if I can enjoy what I am doing, I can work harder.
+        </h1>
+        <h2 class="desc-2">
+            IT is an industry where we should never stop learning new things and it can 
+            sometimes burn you out. If you have the chance, relax, try developing new skills, 
+            learn a new hobby or look for something that makes you passionate about. 
+            These are the things I usually do so that I get through tough times, either 
+            from school, work, or even life.
+        </h2>
+    </div>
+</div>
+<!--Copyright-->
+<div class="copyright">
+    <p class="text">© Yunchul Kim - 김윤철 (金玧澈) 2022</p>
+</div>
+<!--Copyright-->
+<script>
+    let togglebtn = document.querySelector('.toggle-btn')
+    let navbar = document.querySelector('.navbar')
+  
+    togglebtn.addEventListener('click', ()=>{
+        navbar.classList.toggle('mobile-nav')
+    } )
+  </script>
+</body>
+</html>
