@@ -1,0 +1,102 @@
+@media (min-width: 501px) and (max-width: 1280px){
+  h1 {
+      font-size: 35px;
+  }
+  /* Navbar */
+  .toggle-btn i {
+      display: block;
+  }
+  .brand img {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      width: 80px;
+  }
+  .navbar {
+      background: black;
+      height: 100vh;
+      flex-direction: column;
+      display: none;
+      text-align: center;
+  }
+  .mobile-nav {
+      display: flex;
+  }
+  .nav-list ul {
+      flex-direction: column;
+  }
+  .nav-list ul li {
+      margin-top: 30px;
+  }
+  
+  .header {
+      height: 100%;
+      margin-top: 120px;
+  }
+  .header .row {
+      flex-direction: column;
+  }
+  .header .col-1 {
+      padding: 20px;
+  }
+  .header .col-2  img{
+      max-width: 90%;
+  }
+  /* Navbar */
+
+/* Portfolio */
+.image-gallery {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 250px;
+  margin: 20vh 20vh 5vh 20vh;
+}
+/* Portfolio */
+
+/* Profile */
+.container{
+  font-size: 18px;
+  margin: 0px 50px 0px 50px;
+}
+.parallax {
+  padding: 50px 35px;
+}
+.parallax2 {
+  margin-top: 2vh;
+}
+.parallax3 {
+  margin-top: 2vh;
+}
+.parallax4 {
+  margin-top: 8vh;
+}
+.skills-box .box-container .box h3
+{
+  font-size: 14px;
+}
+.ctn {
+  margin-bottom: 15vh;
+}
+/* Profile */
+
+/* About Me */
+.about-container .image img{
+  max-width: 200px;
+  height: auto;
+}
+.about-container{
+  margin: 20vh auto;
+  align-content: center;
+  text-align: justify;
+  width: 80%;
+}
+.desc .desc-1{
+  color: white;
+  font-size: 16px;
+}
+.desc .desc-2{
+  color: white;
+  font-size: 16px;
+}
+/* About Me */
+}
+
